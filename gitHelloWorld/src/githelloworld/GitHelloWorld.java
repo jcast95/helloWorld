@@ -22,7 +22,6 @@ public class GitHelloWorld {
     public static void main(String[] args) {
         // TODO code application logic here
        ArrayList<String> lines = new ArrayList<String>();
-       System.out.println("Hello World");
        
        try{
        FileReader fr = new FileReader(args[0]);
